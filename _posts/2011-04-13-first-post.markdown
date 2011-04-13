@@ -1,6 +1,6 @@
 ---
 layout: default
-title: First Post
+title: Test Post
 ---
 
 First/test entry
