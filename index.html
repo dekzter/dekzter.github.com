@@ -4,6 +4,7 @@ title: dekzter's blog
 ---
 
 {% for post in site.posts limit: 5 %}
-{{ post.title }}
-<em><span style="font-size: 12px;">Posted on {{ post.date | date_to_long_string }}.</span></em>
+	<a href="{{ post.url }}">{{ post.title }}</a>
+	<br/>
+	<em><span style="font-size: 12px;">Posted on {{ post.date | date_to_long_string }}.</span></em>
 {% endfor %}
