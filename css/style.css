@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 
-#main {
+.main {
 	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,6 +16,7 @@ body {
 #navbar {
 	background-color: #222222;
 	text-align: center;
+	padding: 4px;
 }
 
 a, a:hover, a:active, a:visited {
