@@ -27,3 +27,7 @@ h2 {
 a, a:hover, a:active, a:visited {
 	color: #F00;
 }
+
+.center {
+	text-align: center;
+}
