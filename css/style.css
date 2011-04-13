@@ -26,8 +26,12 @@ h2 {
 	padding: 1px;
 }
 
-a, a:hover, a:active, a:visited {
+a#navbar, a#navbar:hover, a#navbar:active, a#navbar:visited {
 	color: #2B261D;
+}
+
+a.main, a:hover.main, a:active.main, a:visited.main {
+	color: #4A5D61;
 }
 
 .center {
