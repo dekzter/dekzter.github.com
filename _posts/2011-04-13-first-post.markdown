@@ -3,5 +3,6 @@ layout: default
 title: Test Post
 ---
 
-## Test Post
+## page.title
+### 13 April 2011
 First/test entry
