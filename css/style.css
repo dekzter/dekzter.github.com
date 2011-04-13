@@ -1,6 +1,6 @@
 body {
-/*	background-color: #000;*/
-	color: #000;
+	background-color: #BFBEA5;
+	color: #2B261D;
 	font-family: Arial;
 	margin: 0;
 	text-decoration: none;
@@ -8,7 +8,8 @@ body {
 
 h2 {
 	text-align: right;
-	border-bottom: 1px #F00 solid;
+	border-bottom: 1px #4A5D61 solid;
+	color: #4A5D61;
 }
 
 .main {
@@ -20,7 +21,8 @@ h2 {
 }
 
 #navbar {
-	background-color: #222222;
+	background-color: #124E69;
+	color: #8C8370;
 	padding: 1px;
 }
 
