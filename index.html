@@ -7,5 +7,7 @@ title: The Life and Times of...
 	<a href="{{ post.url }}">{{ post.title }}</a>
 	<br/>
 	<em><span style="font-size: 12px;">Posted on {{ post.date | date_to_long_string }}.</span></em>
+	<br/>
+	{{ post.content }}
 	<br/><br/>
 {% endfor %}
