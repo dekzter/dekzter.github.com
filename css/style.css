@@ -9,7 +9,7 @@ body {
 h2 {
 	text-align: right;
 	border-bottom: 1px #4A5D61 solid;
-	color: #124E69;
+	color: #4A5D61;
 }
 
 .main {
@@ -27,7 +27,7 @@ h2 {
 }
 
 a, a:hover, a:active, a:visited {
-	color: #124E69;
+	color: #2B261D;
 }
 
 .center {
