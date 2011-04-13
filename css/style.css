@@ -2,3 +2,11 @@ body {
 	background-color: #000;
 	color: #FFF;
 }
+
+#main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #222;
+	padding: 10px;
+}
