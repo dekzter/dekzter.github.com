@@ -12,6 +12,16 @@ h2 {
 	color: #124E69;
 }
 
+#navbar {
+	background-color: #124E69;
+	color: #8C8370;
+	padding: 1px;
+}
+
+#navbar a, a:hover, a:active, a:visited {
+	color: #BFBEA5;
+}
+
 .main {
 	width: 900px;
 	margin-left: auto;
@@ -21,17 +31,7 @@ h2 {
 }
 
 .main a, a:hover, a:active, a:visited {
-	color: #4A5D61;	
-}
-
-#navbar {
-	background-color: #124E69;
-	color: #8C8370;
-	padding: 1px;
-}
-
-#navbar a, a:hover, a:active, a:visited {
-	color: #BFBEA5;
+	color: #124E69;	
 }
 
 .center {
