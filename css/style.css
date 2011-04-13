@@ -20,13 +20,17 @@ h2 {
 	padding: 10px;
 }
 
+.main a, a:hover, a:active, a:visited {
+	color: #4A5D61;	
+}
+
 #navbar {
 	background-color: #124E69;
 	color: #8C8370;
 	padding: 1px;
 }
 
-a, a:hover, a:active, a:visited {
+#navbar a, a:hover, a:active, a:visited {
 	color: #4A5D61;
 }
 
