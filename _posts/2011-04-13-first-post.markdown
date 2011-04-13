@@ -3,5 +3,5 @@ layout: default
 title: Test Post
 ---
 
-### 13 April 2011
+{{ page.date | date_to_long_string }}
 First/test entry
