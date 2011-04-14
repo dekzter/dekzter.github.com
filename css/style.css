@@ -37,6 +37,7 @@ h2 {
 #content {
 	width: 900px;
 	background-color: #666;
+	padding: 2px;
 }
 
 .center {
