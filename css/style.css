@@ -42,7 +42,8 @@ h2 {
 }
 
 a, a:hover, a:active, a:visited {
-	color: #124E69;	
+	color: #124E69;
+	text-decoration: none;
 }
 
 .sidebar {
