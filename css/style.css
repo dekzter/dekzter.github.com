@@ -51,6 +51,7 @@ a, a:hover, a:active, a:visited {
 	width: 300px;
 	background-color: #666;
 	float: right;
+	border: 1px #222 solid;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
