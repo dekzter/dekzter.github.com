@@ -16,7 +16,7 @@ h2 {
 	background-color: #124E69;
 	color: #8C8370;
 	padding: 4px;
-	text-align: center;
+	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -36,6 +36,7 @@ h2 {
 	background-color: #888;
 	padding: 10px;
 	float: left;
+	position: relative;
 }
 
 a, a:hover, a:active, a:visited {
@@ -48,7 +49,7 @@ a, a:hover, a:active, a:visited {
 	padding: 10px;
 	float: right;
 	display: block;
-	height: 100%;
+	position: relative;
 }
 
 .center {
