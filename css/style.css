@@ -54,6 +54,7 @@ a, a:hover, a:active, a:visited {
 	position: relative;
 	overflow: hidden;
 	bottom: 0;
+	position: absolute;
 }
 
 #footer {
