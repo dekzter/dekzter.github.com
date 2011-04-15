@@ -7,7 +7,7 @@ body {
 	text-decoration: none;
 }
 
-.pageTitle {
+h1 {
 	text-align: right;
 	border-bottom: 1px #F0F0F0 solid;
 	color: #C4081A;
