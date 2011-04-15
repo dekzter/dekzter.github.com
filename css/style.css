@@ -58,3 +58,8 @@ a, a:hover, a:active, a:visited {
 .center {
 	text-align: center;
 }
+
+.postHeading {
+	color: #F00;
+	font-size: 16px;
+}
