@@ -48,7 +48,6 @@ a, a:hover, a:active, a:visited {
 .sidebar {
 	width: 300px;
 	background-color: #666;
-	padding: 10px;
 	float: right;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
