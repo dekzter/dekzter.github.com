@@ -38,7 +38,6 @@ h2 {
 	float: left;
 	position: relative;
 	overflow: hidden;
-	bottom: 0;
 }
 
 a, a:hover, a:active, a:visited {
@@ -53,8 +52,6 @@ a, a:hover, a:active, a:visited {
 	display: block;
 	position: relative;
 	overflow: hidden;
-	bottom: 0;
-	position: absolute;
 }
 
 #footer {
