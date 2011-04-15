@@ -68,3 +68,7 @@ a, a:hover, a:active, a:visited {
 	font-size: 30px;
 	font-weight: bold;
 }
+
+.smallTest {
+	font-size: 12px;
+}
