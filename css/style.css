@@ -30,6 +30,7 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
+	border: 1px #222 solid;
 }
 
 .content {
@@ -38,7 +39,6 @@ h2 {
 	float: left;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
-	border: 1px #222 solid;
 }
 
 a, a:hover, a:active, a:visited {
