@@ -52,7 +52,7 @@ a, a:hover, a:active, a:visited {
 	background-color: #666;
 	float: right;
 	border-top: 1px #222 solid;
-	border-left: 1px #222 solid;
+	border-right: 1px #222 solid;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
