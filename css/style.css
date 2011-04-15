@@ -26,7 +26,7 @@ h2 {
 }
 
 #container {
-	width: 903px;
+	width: 919px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
@@ -37,6 +37,7 @@ h2 {
 	width: 600px;
 	background-color: #FFF;
 	float: left;
+	padding: 4px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 	border: 1px #222 solid;
