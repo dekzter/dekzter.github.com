@@ -25,7 +25,7 @@ h2 {
 	color: #BFBEA5;
 }
 
-#main {
+#container {
 	width: 940px;
 	margin-left: auto;
 	margin-right: auto;
@@ -35,7 +35,6 @@ h2 {
 .content {
 	width: 600px;
 	background-color: #888;
-	padding: 10px;
 	float: left;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
@@ -61,5 +60,6 @@ a, a:hover, a:active, a:visited {
 
 .postHeading {
 	color: #F00;
+	background-color: #666;
 	font-size: 20px;
 }
