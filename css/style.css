@@ -27,14 +27,12 @@ h2 {
 
 #main {
 	width: 940px;
-	padding: 8px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .content {
 	width: 600px;
-	height: 100%;
 	background-color: #888;
 	padding: 10px;
 	float: left;
@@ -46,10 +44,11 @@ a, a:hover, a:active, a:visited {
 
 .sidebar {
 	width: 300px;
-	height: 100%;
 	background-color: #666;
 	padding: 10px;
 	float: right;
+	display: block;
+	height: 100%;
 }
 
 .center {
