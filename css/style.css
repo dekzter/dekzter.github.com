@@ -37,8 +37,8 @@ h2 {
 	background-color: #888;
 	padding: 10px;
 	float: left;
-	padding-bottom: 500em;
-	margin-bottom: -500em;
+	padding-bottom: 5000em;
+	margin-bottom: -5000em;
 }
 
 a, a:hover, a:active, a:visited {
@@ -51,8 +51,8 @@ a, a:hover, a:active, a:visited {
 	background-color: #666;
 	padding: 10px;
 	float: right;
-	padding-bottom: 500em;
-	margin-bottom: -500em;
+	padding-bottom: 5000em;
+	margin-bottom: -5000em;
 }
 
 .center {
