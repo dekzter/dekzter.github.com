@@ -1,5 +1,6 @@
 ---
 layout: posts
+category: Other
 title: Test Post
 ---
 
