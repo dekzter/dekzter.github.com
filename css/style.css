@@ -31,6 +31,12 @@ h2 {
 	color: #F2F2F2;
 }
 
+.main {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #container {
 	width: 900px;
 	margin-left: auto;
