@@ -48,6 +48,7 @@ a, a:hover, a:active, a:visited {
 .sidebar {
 	width: 300px;
 	background-color: #666;
+	padding: 10px;
 	float: right;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
@@ -58,12 +59,14 @@ a, a:hover, a:active, a:visited {
 }
 
 .postHeading {
+	width: 600px;
 	color: #F00;
 	background-color: #222;
 	font-size: 20px;
 }
 
 .postContent {
+	width: 600px;
 	background-color: #666;
 	color: #FFF;
 }
