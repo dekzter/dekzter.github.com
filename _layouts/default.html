@@ -22,9 +22,11 @@
 			</div>
 			
 			<div class="sidebar">
-				Relevant links
-				<br/>
-				check
+				Recent Posts
+				{% for post in site.posts limit: 5 %}
+						<a href="{{ post.url }}">{{ post.title }}</a>
+						<hr/>
+				{% endfor %}
 			</div>
 		</div>
 		
