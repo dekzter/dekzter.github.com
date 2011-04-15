@@ -27,7 +27,7 @@ h2 {
 }
 
 #container {
-	width: 919px;
+	width: 900px;
 	margin-left: auto;
 	margin-right: auto;
 	overflow: hidden;
@@ -35,10 +35,10 @@ h2 {
 }
 
 .content {
-	width: 650px;
+	width: 620px;
 	background-color: #F0F0F0;
 	float: left;
-	padding: 4px;
+	padding: 10px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 	border: 1px #222 solid;
@@ -55,7 +55,7 @@ a, a:hover, a:active, a:visited {
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
-	padding: 4px;
+	padding: 5px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
