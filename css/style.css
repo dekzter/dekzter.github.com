@@ -9,7 +9,7 @@ body {
 h2 {
 	text-align: right;
 	border-bottom: 1px #4A5D61 solid;
-	color: #124E69;
+	color: #C4081A;
 }
 
 #navbar {
@@ -50,7 +50,7 @@ a, a:hover, a:active, a:visited {
 
 .sidebar {
 	width: 300px;
-	background-color: #E3ECD6;
+	background-color: #C0C4BF;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
