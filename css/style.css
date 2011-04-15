@@ -62,3 +62,7 @@ a, a:hover, a:active, a:visited {
 .center {
 	text-align: center;
 }
+
+.postTitle {
+	font-size: 20px;
+}
