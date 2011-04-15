@@ -54,15 +54,6 @@ a, a:hover, a:active, a:visited {
 	overflow: hidden;
 }
 
-#footer {
-	background-color: #124E69;
-	color: #8C8370;
-	padding: 4px;
-	text-align: left;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .center {
 	text-align: center;
 }
