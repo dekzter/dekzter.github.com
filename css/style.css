@@ -1,6 +1,6 @@
 body {
-	background-color: #404040;
-	color: #171617;
+	background-color: #F2F2F2;
+	color: #262526;
 	font-family: Arial;
 	margin: 0;
 	text-decoration: none;
@@ -35,7 +35,7 @@ h2 {
 
 .content {
 	width: 600px;
-	background-color: #E2EBD3;
+	background-color: #C8C8C8;
 	float: left;
 	padding: 4px;
 	padding-bottom: 5000em;
@@ -50,7 +50,7 @@ a, a:hover, a:active, a:visited {
 
 .sidebar {
 	width: 300px;
-	background-color: #C0C4BF;
+	background-color: #B4B4B4;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
