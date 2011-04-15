@@ -18,8 +18,9 @@
 		<div id="container">
 			<h2>The Life and Times...</h2>
 			<div class="content">
-				<span class="smallText" style="border-bottom: 1px #666 dotted;"><em>{{ page.date | date_to_long_string }}.</em> | 
-				Category: {{ page.category }}</span>
+				<div class="smallText" style="border-bottom: 1px #666 dotted;">
+					<em>{{ page.date | date_to_long_string }}.</em> | Category: {{ page.category }}
+				</div>
 				<h2 style="text-align: left;">{{ page.title }}</h2>
 				{{ content }}
 			</div>
