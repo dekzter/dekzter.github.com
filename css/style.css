@@ -1,6 +1,6 @@
 body {
-	background-color: #A39770;
-	color: #2B2922;
+	background-color: #404040;
+	color: #171617;
 	font-family: Arial;
 	margin: 0;
 	text-decoration: none;
@@ -13,8 +13,8 @@ h2 {
 }
 
 #navbar {
-	background-color: #A32500;
-	color: #8C8370;
+	background-color: #C4081A;
+	color: #E2EBD3;
 	padding: 4px;
 	text-align: left;
 	margin-left: auto;
@@ -22,7 +22,7 @@ h2 {
 }
 
 #navbar a, a:hover, a:active, a:visited {
-	color: #BFBEA5;
+	color: #E2EBD3;
 }
 
 #container {
@@ -35,7 +35,7 @@ h2 {
 
 .content {
 	width: 600px;
-	background-color: #EFE4BD;
+	background-color: #E2EBD3;
 	float: left;
 	padding: 4px;
 	padding-bottom: 5000em;
@@ -50,7 +50,7 @@ a, a:hover, a:active, a:visited {
 
 .sidebar {
 	width: 300px;
-	background-color: #BAB293;
+	background-color: #E2EBD3;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
