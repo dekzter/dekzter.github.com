@@ -60,6 +60,13 @@ a, a:hover, a:active, a:visited {
 
 .postHeading {
 	color: #F00;
-	background-color: #666;
+	background-color: #222;
 	font-size: 20px;
+	padding: 8px;
+}
+
+.postContent {
+	padding: 8px;
+	background-color: #666;
+	color: #FFF;
 }
