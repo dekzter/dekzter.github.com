@@ -14,17 +14,19 @@
 				<a href="http://baguette.github.com/">The Periodic Loaf</a> | 
 			</div>
 		</div>
-		<div class="main">
-			<h2>{{ page.title }}</h2>
-			<div id="content">
-				{{ content }}
+		<div id="content">
+			<div class="main">
+				{% for post in site.posts limit: 5 %}
+					{{ post.title }}
+					<em><span style="font-size: 12px;">Posted on {{ post.date | date_to_long_string }}.</span></em>
+					{{ post.content | preview }}
+					<a href="{{ post.url }}">Read More...</a>
+					<br/><br/>
+				{% endfor %}
 			</div>
-			<div class="center">
-				<a href="#top">Jump to Top</a>
+			<div class="sidebar">
+				testing sidebar
 			</div>
-		</div>
-		<div class="sidebar">
-			testing here
 		</div>
 	</body>
 </html>

@@ -22,13 +22,21 @@ h2 {
 	color: #BFBEA5;
 }
 
+#content {
+	width: 900px;
+	background-color: #888;
+	padding: 8px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .main {
 	width: 600px;
 /*	background-color: #222;*/
 	padding: 10px;
 }
 
-.main a, a:hover, a:active, a:visited {
+a, a:hover, a:active, a:visited {
 	color: #124E69;	
 }
 
@@ -36,12 +44,6 @@ h2 {
 	width: 300px;
 	padding: 10px;
 	float: right;
-}
-
-#content {
-	width: 900px;
-	background-color: #888;
-	padding: 8px;
 }
 
 .center {
