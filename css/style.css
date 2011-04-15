@@ -35,7 +35,7 @@ h2 {
 }
 
 .content {
-	width: 600px;
+	width: 650px;
 	background-color: #F0F0F0;
 	float: left;
 	padding: 4px;
@@ -50,7 +50,7 @@ a, a:hover, a:active, a:visited {
 }
 
 .sidebar {
-	width: 300px;
+	width: 250px;
 	background-color: #B4B4B4;
 	float: right;
 	border-top: 1px #222 solid;
