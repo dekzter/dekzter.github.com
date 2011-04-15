@@ -14,8 +14,8 @@
 				<a href="http://baguette.github.com/">The Periodic Loaf</a> | 
 			</div>
 		</div>
-		<div id="content">
-			<div class="main">
+		<div id="main">
+			<div class="content">
 				{% for post in site.posts limit: 5 %}
 					{{ post.title }}
 					<em><span style="font-size: 12px;">Posted on {{ post.date | date_to_long_string }}.</span></em>

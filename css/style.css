@@ -22,18 +22,19 @@ h2 {
 	color: #BFBEA5;
 }
 
-#content {
-	width: 900px;
+#main {
+	width: 940px;
 	background-color: #888;
 	padding: 8px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.main {
+.content {
 	width: 600px;
 /*	background-color: #222;*/
 	padding: 10px;
+	float: left;
 }
 
 a, a:hover, a:active, a:visited {
