@@ -34,10 +34,11 @@ h2 {
 
 .content {
 	width: 600px;
-	background-color: #888;
+	background-color: #FFF;
 	float: left;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
+	border: 1px #222 solid;
 }
 
 a, a:hover, a:active, a:visited {
@@ -56,17 +57,4 @@ a, a:hover, a:active, a:visited {
 
 .center {
 	text-align: center;
-}
-
-.postHeading {
-	width: 600px;
-	color: #F00;
-	background-color: #222;
-	font-size: 20px;
-}
-
-.postContent {
-	width: 600px;
-	background-color: #666;
-	color: #FFF;
 }
