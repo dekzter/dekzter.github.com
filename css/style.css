@@ -53,9 +53,9 @@ a, a:hover, a:active, a:visited {
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
-	margin-top: 4px;
-	margin-left: 4px;
-	margin-right: 4px;
+	padding-top: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
