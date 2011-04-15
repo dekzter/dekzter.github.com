@@ -1,5 +1,5 @@
 body {
-	background-color: #8C8C8C;
+	background-color: #A0A0A0;
 	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
@@ -51,7 +51,7 @@ a, a:hover, a:active, a:visited {
 
 .sidebar {
 	width: 250px;
-	background-color: #B4B4B4;
+	background-color: #DCDCDC;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
