@@ -53,6 +53,7 @@ a, a:hover, a:active, a:visited {
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
+	padding: 4px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
