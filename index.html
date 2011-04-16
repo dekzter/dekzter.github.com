@@ -3,14 +3,14 @@ layout: default
 title: The Life and Times of...
 ---
 
-{% for project in site.posts limit: 5 %}
+{% for post in site.posts limit: 5 %}
 	<h2>
-		<a href="{{ post.url }}">{{ project.title }}</a>
+		<a href="{{ post.url }}">{{ post.title }}</a>
 	</h2>
-	<em><span class="smallText">Posted on {{ project.date | date_to_long_string }}.</span></em>
+	<em><span class="smallText">Posted on {{ post.date | date_to_long_string }}.</span></em>
 	<span class="postContent">
-		{{ project.content | preview }}
-		<a href="{{ project.url }}">Read More...</a>
+		{{ post.content | preview }}
+		<a href="{{ post.url }}">Read More...</a>
 	</span>
 	<br/><br/>
 {% endfor %}
