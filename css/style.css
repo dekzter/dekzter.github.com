@@ -89,3 +89,8 @@ a, a:hover, a:active, a:visited {
 .smallText {
 	font-size: 12px;
 }
+
+.breadcrumb {
+	font-size: 14px;
+	font-style: italic;
+}
