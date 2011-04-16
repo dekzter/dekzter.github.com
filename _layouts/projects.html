@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>
+			{{ page.title }}
+		</title>
+		<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	</head>
+	
+	<body>
+		<div id="navbar">
+			<div class="main">
+				<a href="http://dekzter.github.com/">Home</a> | 
+				<a href="http://dekzter.github.com/projects">Projects</a>
+			</div>
+		</div>
+		
+		<div id="container">
+			<h1 class="right"><a href="http://dekzter.github.com">The Life and Times...</a></h1>
+			<div class="breadcrumb"><a href="http://dekzter.github.com/">Home</a> > {{ page.title }}</div>
+			<br/>
+			<div class="content">
+				{{ content }}
+			</div>
+			
+			<div class="sidebar">
+				Recent Posts
+				<blockquote>
+					{% for post in site.posts limit: 5 %}
+							<a href="{{ post.url }}">{{ post.title }}</a>
+							<em><span class="smallText">{{ post.date | date_to_long_string }}.</span></em>
+							<hr/>
+					{% endfor %}
+				</blockquote>
+			</div>
+		</div>
+		
+	</body>
+</html>
