@@ -68,9 +68,13 @@ h2 a:hover {
 	border: 1px #222 solid;
 }
 
-a, a:hover, a:active, a:visited {
+a, a:active, a:visited {
 	color: #C4081A;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #262526;
 }
 
 .sidebar {
