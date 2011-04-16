@@ -5,4 +5,14 @@ title: Projects
 
 <h2 style="border-bottom: 1px #666 dotted;">Projects</h2>
 
-<h3><a href="http://crumbs.codersmanifesto.com/" target="_blank">Crumbs Music Media</a></h3>
+{% for post in site.projects %}
+	<h2>
+		<a href="{{ post.url }}">{{ post.title }}</a>
+	</h2>
+	<em><span class="smallText">Posted on {{ post.date | date_to_long_string }}.</span></em>
+	<span class="postContent">
+		{{ post.content | preview }}
+		<a href="{{ post.url }}">Read More...</a>
+	</span>
+	<br/><br/>
+{% endfor %}
