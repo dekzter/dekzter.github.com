@@ -1,6 +1,11 @@
 ---
 layout: posts
-category: Project
+category: Projects
+tags:
+	- php
+	- c
+	- perl
+	- jquery
 title: Crumbs Music Media
 ---
 
