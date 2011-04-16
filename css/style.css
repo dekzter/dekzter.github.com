@@ -15,7 +15,11 @@ h1 {
 
 h2 {
 	border-bottom: 1px #F0F0F0 solid;
-	color: #C4081A;
+/*	color: #262526;*/
+}
+
+h2 a, a:hover, a:visited, a:active {
+	color: #262526;
 }
 
 #navbar {
