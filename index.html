@@ -7,7 +7,7 @@ title: The Life and Times of...
 	<span class="postTitle">
 		<a href="{{ post.url }}">{{ post.title }}</a>
 	</span>
-	<em><span class="smallText">Posted on {{ post.date | date_to_string }}.</span></em>
+	<em><span class="smallText">Posted on {{ post.date | date_to_long_string }}.</span></em>
 	<span class="postContent">
 		{{ post.content | preview }}
 		<a href="{{ post.url }}">Read More...</a>
