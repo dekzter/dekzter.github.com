@@ -36,8 +36,12 @@ h2 a:hover {
 	margin-right: auto;
 }
 
-#navbar a, a:hover, a:active, a:visited {
+#navbar a, a:active, a:visited {
 	color: #F2F2F2;
+}
+
+#navbar a:hover {
+	color: #262526;
 }
 
 .main {
