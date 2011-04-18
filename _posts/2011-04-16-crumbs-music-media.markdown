@@ -5,7 +5,7 @@ preview: For my senior design project at NC State University, my team was to mak
 title: Crumbs Music Media
 ---
 
-<img src="/images/crumbs.png" alt="crums jukebox pic" width="200px" />
+<img src="/images/crumbs.png" alt="crums jukebox pic" width="550px" />
 
 For my senior design project at NC State University, my team was to make an automated ID3 metadata extractor for MP3 files as well as a digital music jukebox that would ultimately be placed in social areas (such as coffee shops) around college campuses.
 
