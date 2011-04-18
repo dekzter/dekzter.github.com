@@ -115,4 +115,6 @@ a:hover {
 	vertical-align: bottom;
 	overflow: hidden;
 	padding: 40px;
+	position: absolute;
+	bottom: 0;
 }
