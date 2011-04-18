@@ -61,7 +61,7 @@ h2 a:hover {
 	width: 597px;
 	background-color: #F0F0F0;
 	float: left;
-	padding: 20px;
+	padding: 30px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 	border: 1px #222 solid;
@@ -82,7 +82,7 @@ a:hover {
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
-	padding: 5px;
+	padding: 10px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
