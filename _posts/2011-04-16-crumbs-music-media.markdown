@@ -16,3 +16,15 @@ For the actual audio player, we used the open-source [jPlayer](http://www.jplaye
 The database we used was MySQL, which was populated with the metadata information from the backend extractor portion of the project. Essentially, a preset directory is checked about once every 5 minutes for any contents. If there are any files present, it goes through each file to process. If the file is not an MP3, it is discarded. The metadata is extracted through third-party open-source applications (currently [eyeD3](http://eyed3.nicfit.net/), [mp3info](http://www.ibiblio.org/mp3info/), and [id3v2](http://www.id3.org/)) in addition to soundstretch to determine the song's BPM. A MySQL query is then constructed with that information and inserted into the database while the MP3 file is moved to a processed directory and its name is changed to that of its songID in the database.
 
 Overall, the project was very enjoyable. It was an opportunity to bring my 2 favorite things together: music and programming. I'm quite pleased with the outcome, and if you'd like to check it out, head on over to [the jukebox](http://crumbs.codersmanifesto.com/).
+
+Code example:
+
+`
+class ApplicationController < ActionController::Base
+  helper :all # include all helpers, all the time
+  protect_from_forgery # See ActionController::RequestForgeryProtection for details
+
+  # Scrub sensitive parameters from your log
+  # filter_parameter_logging :password
+end
+`
