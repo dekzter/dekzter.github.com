@@ -6,6 +6,7 @@ title: Crumbs Music Media
 ---
 
 <div class="center">
+	<br/>
 	<img src="/images/crumbs.png" alt="crums jukebox pic" width="550px" />
 </div>
 
