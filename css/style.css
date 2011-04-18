@@ -112,6 +112,7 @@ a:hover {
 	background-color: #C4081A;
 	color: #E2EBD3;
 	text-align: center;
-	padding: 40px;
-	height: auto;
+	padding: 40px 0;
+	margin: 0 auto;
+	overflow: hidden;
 }
