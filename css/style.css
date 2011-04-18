@@ -58,7 +58,7 @@ h2 a:hover {
 }
 
 .content {
-	width: 622;
+	width: 597px;
 	background-color: #F0F0F0;
 	float: left;
 	padding: 20px;
@@ -77,7 +77,7 @@ a:hover {
 }
 
 .sidebar {
-	width: 225px;
+	width: 250px;
 	background-color: #DCDCDC;
 	float: right;
 	border-top: 1px #222 solid;
