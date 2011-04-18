@@ -77,12 +77,12 @@ a:hover {
 }
 
 .sidebar {
-	width: 230px;
+	width: 200px;
 	background-color: #DCDCDC;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
-	padding: 15px;
+	padding: 30px;
 	padding-bottom: 5000em;
 	margin-bottom: -5000em;
 }
