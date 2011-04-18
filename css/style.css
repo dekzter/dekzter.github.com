@@ -107,3 +107,9 @@ a:hover {
 	font-size: 14px;
 	font-style: italic;
 }
+
+#footer {
+	background-color: #C4081A;
+	color: #E2EBD3;
+	text-align: center;
+}
