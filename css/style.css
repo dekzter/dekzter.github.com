@@ -1,8 +1,7 @@
 body {
 	background-color: #8A959A;
 /*	background-color: #C0C0C0;*/
-/*	color: #262526;*/
-	color: #3B5998;
+	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
 	margin: 0;
@@ -11,7 +10,8 @@ body {
 
 h1 {
 	border-bottom: 1px #F0F0F0 solid;
-	color: #C4081A;
+/*	color: #C4081A;*/
+	color: #3B5998;
 }
 
 h2 {
@@ -25,7 +25,8 @@ h2 a, a:visited, a:active {
 }
 
 h2 a:hover {
-	color: #262526;
+/*	color: #262526;*/
+	color: #3B5998;
 }
 
 #navbar {
