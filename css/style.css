@@ -21,12 +21,10 @@ h2 {
 }
 
 h2 a, a:visited, a:active {
-/*	color: #C4081A;*/
 	color: #262526;
 }
 
 h2 a:hover {
-/*	color: #262526;*/
 	color: #2B5998;
 }
 
