@@ -28,6 +28,10 @@ h2 a, a:active, a:visited {
 	color: #262526;
 }
 
+h2 a:visited {
+	color: #262526;
+}
+
 h2 a:hover {
 	color: #2B5998;
 }
