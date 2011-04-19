@@ -21,11 +21,11 @@ h2 {
 }
 
 h2 a, a:active, a:visited {
-	color: #FF0000;
+	color: #262526;
 }
 
 h2 a:hover {
-	color: #00FF00;
+	color: #2B5998;
 }
 
 #navbar {
