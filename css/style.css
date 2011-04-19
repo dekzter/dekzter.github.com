@@ -20,6 +20,10 @@ h2 {
 	margin: 0;
 }
 
+.header2 a, a:active, a:visited {
+	color: #262526;
+}
+
 h2 a, a:active, a:visited {
 	color: #262526;
 }

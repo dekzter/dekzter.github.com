@@ -4,7 +4,7 @@ title: The Life and Times of...
 ---
 
 {% for post in site.posts limit: 5 %}
-	<h2>
+	<h2 class="header2">
 		<a href="{{ post.url }}">{{ post.title }}</a>
 	</h2>
 	<em><div class="smallText" style="border-bottom: 1px #666 dotted; padding-bottom: 0px;">Posted on {{ post.date | date_to_long_string }} | Category: {{ post.category }}</div></em>
