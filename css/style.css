@@ -25,7 +25,8 @@ h2 a, a:visited, a:active {
 }
 
 h2 a:hover {
-	color: #262526;
+/*	color: #262526;*/
+	color: #2B5998;
 }
 
 #navbar {
