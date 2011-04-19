@@ -43,12 +43,13 @@ h2 a:hover {
 }
 
 #navbar a, a:active, a:visited {
-	color: #F2F2F2;
+/*	color: #F2F2F2;*/
+	color: #2B5998;
 }
 
 #navbar a:hover {
 /*	color: #C4081A;*/
-	color: #2B5998;
+	color: #F2F2F2;
 }
 
 .main {
