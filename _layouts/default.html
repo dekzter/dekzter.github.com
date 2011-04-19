@@ -29,7 +29,7 @@
 					{% for post in site.posts limit: 5 %}
 							<a href="{{ post.url }}">{{ post.title }}</a>
 							<br/>
-							<em><span class="smallText">{{ post.date | date_to_long_string }}.</span></em>
+							<em><span class="smallText">{{ post.date | date_to_long_string }}</span></em>
 							<hr/>
 					{% endfor %}
 				</blockquote>
