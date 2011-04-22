@@ -32,6 +32,10 @@ h2 a:hover {
 	color: #2B5998;
 }
 
+.contentHeader {
+	font-size: 2em;
+}
+
 #navbar {
 	background: -webkit-gradient(linear,left top,left bottom,from(#333),to(#111));
 	background: -moz-linear-gradient(top,#333,#111);
