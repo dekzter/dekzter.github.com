@@ -1,6 +1,6 @@
 ---
 layout: posts
-category: Projects
+category: Other
 preview: First/test entry
 title: Test Post
 ---
