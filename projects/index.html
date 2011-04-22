@@ -10,12 +10,15 @@ title: Projects
 		<h2>
 			<a href="{{ post.url }}">{{ post.title }}</a>
 		</h2>
-		<em><span class="smallText">Posted on {{ post.date | date_to_long_string }}.</span></em>
+		<em><div class="smallText" style="border-bottom: 1px #666 dotted; padding-bottom: 0px;">Posted on {{ post.date | date_to_long_string }}</div></em>
 		<span class="postContent">
+			<br/>
 			{{ post.preview }}
 			<br/>
 			<a href="{{ post.url }}">Read More...</a>
 		</span>
-		<br/><br/>
+		<br/>
+		<span style="border-bottom: 1px #666 dotted;"></span>
+		<br/>
 	{% endif %}
 {% endfor %}
