@@ -34,9 +34,34 @@
 
 <p>For the actual audio player, we used the open-source <a href='http://www.jplayer.org/'>jPlayer</a> which uses HTML5 with a Flash fallback, which is quite nice since not only would you have to worry about mobile browsers such as Safari on the iPhone, but also Firefox does not natively support MP3 playback in HTML5.</p>
 
-<p>The database we used was MySQL, which was populated with the metadata information from the backend extractor portion of the project. Essentially, a preset directory is checked about once every 5 minutes for any contents. If there are any files present, it goes through each file to process. If the file is not an MP3, it is discarded. The metadata is extracted through third-party open-source applications (currently <a href='http://eyed3.nicfit.net/'>eyeD3</a>, <a href='http://www.ibiblio.org/mp3info/'>mp3info</a>, and <a href='http://www.id3.org/'>id3v2</a>) in addition to soundstretch to determine the song&#8217;s BPM. A MySQL query is then constructed with that information and inserted into the database while the MP3 file is moved to a processed directory and its name is changed to that of its songID in the database.</p>
+<p>The database we used was MySQL, which was populated with the metadata information from the backend extractor portion of the project. Essentially, a preset directory is checked about once every 5 minutes for any contents. If there are any files present, it goes through each file to process. If the file is not an MP3, it is discarded. The metadata is extracted through third-party open-source applications (currently <a href='http://eyed3.nicfit.net/'>eyeD3</a>, <a href='http://www.ibiblio.org/mp3info/'>mp3info</a>, and <a href='http://www.id3.org/'>id3v2</a>) in addition to <a href='http://www.surina.net/soundtouch/soundstretch.html'>soundstretch</a> to determine the song&#8217;s BPM. A MySQL query is then constructed with that information and inserted into the database while the MP3 file is moved to a processed directory and its name is changed to that of its songID in the database.</p>
 
 <p>Overall, the project was very enjoyable. It was an opportunity to bring my 2 favorite things together: music and programming. I&#8217;m quite pleased with the outcome, and if you&#8217;d like to check it out, head on over to <a href='http://crumbs.codersmanifesto.com/'>the jukebox</a>.</p>
+				<br/><br/><br/>
+				<hr/>
+				<div id="disqus_thread"></div>
+				<script type="text/javascript">
+					/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+					var disqus_shortname = 'dekzter'; // required: replace example with your forum shortname
+					
+					// The following are highly recommended additional parameters. Remove the slashes in front to use.
+					//var disqus_identifier = 'unique_dynamic_id_1234';
+					//var disqus_url = 'http://example.com/permalink-to-page.html';
+					
+					/* * * DON'T EDIT BELOW THIS LINE * * */
+					(function() {
+						var dsq = document.createElement('script');
+						dsq.type = 'text/javascript';
+						dsq.async = true;
+						dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+						(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+					})();
+				</script>
+				<noscript>
+					Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+				</noscript>
+				<a href="http://disqus.com/" class="dsq-brlink">Blog comments powered by <span class="logo-disqus">Disqus</span></a>
+				<br/><br/>
 			</div>
 			
 			<div class="sidebar">
