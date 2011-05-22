@@ -1,7 +1,8 @@
 body {
 /*	background-color: #8A959A;*/
 /*	background-color: #C0C0C0;*/
-	background-color: #FFF;
+/*	background-color: #FFF;*/
+	background-color: #DCDCDC;
 	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
@@ -76,7 +77,8 @@ h2 a:hover {
 
 .content {
 	width: 577px;
-	background-color: #F0F0F0;
+/*	background-color: #F0F0F0;*/
+	background-color: #FFF;
 	float: left;
 	padding: 30px;
 	padding-bottom: 5000em;
@@ -96,7 +98,8 @@ a:hover {
 
 .sidebar {
 	width: 230px;
-	background-color: #DCDCDC;
+/*	background-color: #DCDCDC;*/
+	background-color: #F0F0F0;
 	float: right;
 	border-top: 1px #222 solid;
 	border-right: 1px #222 solid;
