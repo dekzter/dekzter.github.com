@@ -1,7 +1,7 @@
 body {
 /*	background-color: #666;*/
 	background-image: url("/images/woodpattern.jpg");
-	background-repeat: repeat-x;
+	background: repeat-x no-repeat;
 	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
