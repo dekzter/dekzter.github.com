@@ -1,6 +1,12 @@
 body {
 /*	background-color: #666;*/
-	background-image: url("/images/woodpattern.jpg");
+/*	background-image: url("/images/woodpattern.jpg");*/
+	background: url("/images/woodpattern2.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
