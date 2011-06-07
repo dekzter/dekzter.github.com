@@ -100,10 +100,6 @@ a:hover {
 /*	color: #262526;*/
 }
 
-#breadcrumb {
-	color: #AAA;
-}
-
 .sidebar {
 	width: 230px;
 	background-color: #F0F0F0;
@@ -136,6 +132,7 @@ a:hover {
 .breadcrumb {
 	font-size: 14px;
 	font-style: italic;
+	color: #AAA;
 }
 
 #footer {
