@@ -96,7 +96,12 @@ a, a:active, a:visited {
 }
 
 a:hover {
-	color: #262526;
+	color: #AAA;
+/*	color: #262526;*/
+}
+
+#breadcrumb {
+	color: #AAA;
 }
 
 .sidebar {
