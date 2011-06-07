@@ -9,8 +9,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;*/
-/*	color: #262526;*/
-	color: #FFF;
+	color: #262526;
 	font-family: Arial;
 	font-size: 16px;
 	margin: 0;
@@ -97,8 +96,15 @@ a, a:active, a:visited {
 }
 
 a:hover {
-/*	color: #262526;*/
+	color: #262526;
+}
+
+#breadcrumb a, a:active, a:visited {
 	color: #AAA;
+}
+
+#breadcrumb a:hover {
+	color: #999;
 }
 
 .sidebar {
