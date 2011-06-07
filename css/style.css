@@ -97,7 +97,8 @@ a, a:active, a:visited {
 }
 
 a:hover {
-	color: #262526;
+/*	color: #262526;*/
+	color: #AAA;
 }
 
 .sidebar {
