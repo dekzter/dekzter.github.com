@@ -11,7 +11,7 @@
 		<div id="navbar">
 			<div class="main">
 				<a href="/">Home</a> | 
-				<a href="/projects">Projects</a>
+				<a href="/projects.html">Projects</a>
 			</div>
 		</div>
 		
@@ -20,6 +20,11 @@
 			
 			<!-- Breadcrumb Trail -->
 			<div class="breadcrumb"><a href="/">Home</a> > <a href="/{{ page.category }}">{{ page.category }}</a> > {{ page.title }}</div>
+			{% if page.category == "Projects" %}
+				<div class="breadcrumb"><a href="/">Home</a> > <a href="/projects">Projects</a> > {{ page.title }}</div>
+			{% else %}
+				<div class="breadcrumb"><a href="/">Home</a> > {{ page.title }}</div>
+			{% endif %}
 			<!-- End Breadcrumb Trail -->
 			
 			<br/>
