@@ -1,0 +1,21 @@
+---
+layout: projects
+title: Projects
+---
+
+<h2 class="contentHeader" style="border-bottom: 1px #666 dotted;">Projects</h2>
+<br/>
+{% for post in site.posts %}
+	{% if post.category == "Projects" %}
+		<h2>
+			<a href="{{ post.url }}">{{ post.title }}</a>
+		</h2>
+		<em><div class="smallText" style="margin-bottom: 10px;">Posted on {{ post.date | date_to_long_string }}</div></em>
+		<span class="postContent">
+			{{ post.preview }}
+			<br/>
+			<a href="{{ post.url }}">Read More...</a>
+		</span>
+		<br/><br/>
+	{% endif %}
+{% endfor %}
