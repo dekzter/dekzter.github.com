@@ -19,11 +19,12 @@
 			<h1 class="right"><a href="/">The Social Half-Wit</a></h1>
 			
 			<!-- Breadcrumb Trail -->
-			{% if page.category == "Projects" %}
+			<div class="breadcrumb"><a href="/">Home</a> > <a href="/{{ post.category }}">{{ post.category }}</a> > {{ page.title }}</div>
+/*			{% if page.category == "Projects" %}
 				<div class="breadcrumb"><a href="/">Home</a> > <a href="/projects">Projects</a> > {{ page.title }}</div>
 			{% else %}
 				<div class="breadcrumb"><a href="/">Home</a> > {{ page.title }}</div>
-			{% endif %}
+			{% endif %}*/
 			<!-- End Breadcrumb Trail -->
 			
 			<br/>
